@@ -1,0 +1,11 @@
+
+For this project, the features i tried were stemming i.e words ending in "ing", "ed", "ly", if the word began with a capital letter,
+the previous word and its POS, if the previous word was ending in "ing", "ed", "ly" and if the previous word began with a capital letter. I tried the
+next word(after current word) and if the next word was ending in "ing", "ed", "ly" and if the next word began with a capital letter. I also tried the previous word's
+previous word and its POS and the next word's next word and its POS.
+
+The output file from the test corpus, i.e., WSJ_23.pos is labelled as WSJ_23Output.pos
+
+NOTE: if testing this code, there are two lines marked
+      with "###############################################comment out when doing test chunk###################################" that need to be commented out
+      in order to run on the file that requires no POS. However, both test.chunk and training chunck are attached
